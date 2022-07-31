@@ -1,0 +1,59 @@
+/* written by chapel1337 */
+/* css took 95% of the time to perfect, as usual */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(220, 220, 200);
+}
+
+#name_container {
+    position: absolute;
+    right: 4px;
+    border: 2px solid black;
+    width: 29.5%;
+    height: 98.9%;
+}
+
+.name {
+    display: block;
+    margin-top: 36.8px;
+    margin-bottom: 36.8px;
+    margin-left: 5px;
+    width: 95%;
+    font-size: 25px;
+}
+
+.divider {
+    border: 0.5px solid black;
+    width: 100%;
+}
+
+#title_container {
+    border: 2px solid black;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+}
+
+#song_container {
+    border: 2px solid black;
+    border-top: 2px solid black;
+    width: 70%;
+    height: 100%;
+}
+
+.song {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    width: 97%;
+    background-image: linear-gradient();
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(220, 220, 200);
+}
